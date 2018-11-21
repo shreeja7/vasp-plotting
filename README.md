@@ -6,6 +6,7 @@ Usage - python readeigenSingleFileOP.py
 This script reads the band energy and k-points from EIGENVAL file, then subtracts the energies from the fermi energy 
 (obtained from OUTCAR) and stores them all in a single text file called eigenBands.dat in the following format:
 Kpoints	EnergyForBand1	EnergyForBand2	...	EnergyForbandn
+
 You can now read this file to plot band diagrams using codes of your choice. :)
 
 2. bandDiagramGnuplot.p:
