@@ -8,7 +8,7 @@ This script reads the band energy and k-points from EIGENVAL file, then subtract
 Kpoints	EnergyForBand1	EnergyForBand2	...	EnergyForbandn
 You can now read this file to plot band diagrams using codes of your choice. :)
 
-2. bandDiagramGnuplot.p
+2. bandDiagramGnuplot.p:
 Usage - gnuplot -e "nb=<no_of_bands>" -persist "bandDiagramGnuplot.p"
 Small gnuplot code to quickly plot and save band diagrams. <no_of_bands> is an integer. Reads the eigenBands.dat file from <1>
 To convert the eps output into 300 dpi jpg: 
